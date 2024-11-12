@@ -1,0 +1,148 @@
+
+ 
+  .new-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 40%;
+    height: 330px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    margin: 0 auto;
+  
+  
+  }
+  .new-card-body{
+  }
+  
+
+
+
+
+
+  .new-card-title {
+    font-weight: bold;
+    color: #043953;
+    margin-top: 0;
+  }
+  
+  .new-card-text {
+    color: #000;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .new-quote {
+    font-style: italic;
+  }
+  
+  .new-carousel-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .new-carousel-indicators button {
+    background-color: #043953;
+    border: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .new-carousel-indicators button.active {
+    background-color: grey;
+  }
+  
+  .new-carousel-indicators button:focus {
+    outline: none;
+  }
+  
+  .section-header-title {
+    color: #043953;
+  }
+  
+  .section-header-span {
+    color: #002D62;
+  }
+  
+  .new-slider-button {
+    background-color: #043953;
+    border-color: #043953;
+  }
+  
+  .new-slider-button:hover{
+    background-color: #043953;
+    border-color: #043953;
+  }
+  
+
+
+
+
+ 
+
+
+.new-custom-carousel .carousel-control-prev,
+.new-custom-carousel .carousel-control-next {
+  width: 5%; 
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  z-index: 2;
+}
+
+.new-custom-carousel .carousel-control-prev {
+  left: 24%; 
+}
+
+.new-custom-carousel .carousel-control-next {
+  right: 24%; 
+}
+
+
+
+
+
+
+
+
+
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #043953;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+   
+   
+  }
+  
+
+
+
+
+
+  @media (max-width: 768px) { 
+    
+    .new-card { width: 80%; 
+      height: auto;  } 
+      
+      .new-card-title { font-size: 1.2rem;  } 
+      
+      .new-card-text { font-size: 0.9rem;  }
+
+      .new-custom-carousel .carousel-control-prev {
+        left: 3%; 
+      }
+      
+      .new-custom-carousel .carousel-control-next {
+        right: 3%; 
+      }
+      
+
+
+    }

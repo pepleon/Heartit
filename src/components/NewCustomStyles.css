@@ -1,0 +1,15 @@
+/* src/NewCustomStyles.css *
+  
+  /* Custom styles for the Footer component */
+  .footer {
+    background-color:#043953; /* Dark blue background color */
+    bottom: 0;
+    width: 100%;
+    height: 30vh;
+  }
+  
+  .footer-logo {
+    width: 100px; /* Adjust the size as needed */
+    margin-top: 90px;
+  }
+  

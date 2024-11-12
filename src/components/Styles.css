@@ -1,0 +1,156 @@
+
+body {
+    color: #000;
+  }
+  
+  .card{
+    margin-bottom: 20px;
+    min-height: 300px;
+  }
+  
+  .card-custom {
+    color: #000;
+    border: none;
+  
+   
+  }
+  
+  .card-title-custom {
+    font-weight: bold;
+    color: #01818C;
+  }
+  
+  .card-content {
+    
+    color: #000;
+  }
+  
+
+
+
+
+
+  .form-check-input:checked {
+    accent-color:#01818C; 
+  }
+
+ 
+  .form-check-input:checked + .form-check-label {
+    color: #01818C; 
+  }
+
+
+  
+  .form-check-input {
+    
+    position: relative;
+    width: 15px;
+    height: 15px;
+    appearance: none; 
+    border: 2px solid #01818C;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+  }
+
+ 
+  .form-check-input:checked {
+    border-color: #01818C;
+    background-color: #01818C;
+  }
+
+
+
+
+
+
+  .form-select {
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: border-color 0.3s ease, color 0.3s ease;
+    color: #333; 
+  }
+
+  
+  .form-select:focus {
+    border-color: #01818C;
+    color: #01818C; 
+    outline: none; 
+  }
+
+  
+  .form-select option {
+    background-color: #EBF7FC; 
+    color: #01818C;
+  }
+  
+ 
+  .form-select option:hover {
+    background-color: #01818C; 
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  .parent-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden;
+  }
+
+  .form-select2 {
+    width: 50%; 
+    background-color: #F0F9FC;
+    height: 70px;
+    padding: 8px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: border-color 0.3s ease, color 0.3s ease;
+    color: #333; 
+    margin: 0 auto;
+    display: block; 
+  }
+  
+
+
+
+  
+
+  .form-select2:focus {
+    border-color: #01818C;
+    color: #01818C; 
+    outline: none; 
+  }
+
+  
+  .form-select2 option {
+    background-color: #EBF7FC;
+    color: #01818C; 
+  }
+
+
+
+
+ 
+
+  .text2 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+  }
